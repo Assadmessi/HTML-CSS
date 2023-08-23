@@ -15,7 +15,7 @@ navbar {
   grid-template-columns: 10rem 1fr;
   align-items: center;
   box-shadow: -3px 4px #FCFCFC;
-  
+
 }
 
 .icon {
@@ -125,7 +125,9 @@ a {
 }
 
 .footer .icons {
+  display: flex;
   padding-top: 5rem;
+  flex-direction: column;
 }
 
 .footer h4 {
@@ -138,10 +140,61 @@ a {
   width: 2rem;
 }
 
-.footer p {
+.footer .icons a {
+  text-decoration: none;
   color: #ffffff;
   padding-top: 1rem;
   text-align: right;
 }
 
 /* End of footer style*/
+
+/*Start of media query*/
+
+@media only screen and (max-width: 1200px) {
+  navbar{
+    height: 7rem;
+  }
+
+  a {
+    padding-left: 1rem;
+  }
+
+  .search-result {
+    height: 9rem;
+    font-size: 1.5rem;
+    width: 85vw;
+  }
+
+  .search-result .buy {
+    font-size: 1.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .search-result .update {
+    font-size: 1.5rem;
+    width: 7.5rem;
+    height: 4.5rem;
+  }
+
+  .footer .logos{
+    padding-left: 1rem;
+    
+  }
+
+  .footer .icons {
+    padding-right: 1rem;
+  }
+
+  .footer .icons a {
+
+    font-size: 1.5rem;
+  }
+  
+  
+}
+
+/*end of media query*/
+
+
