@@ -1,14 +1,21 @@
+/* Css clear*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Start of navbar style*/
+
 navbar {
+  width: 98vw;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 10rem 1fr;
   align-items: center;
-  box-shadow: 0px 4px #fafafa;
+  box-shadow: -3px 4px #FCFCFC;
+  
 }
 
 .icon {
@@ -45,23 +52,55 @@ a {
   color: #fea319;
 }
 
+/* end of navbar style*/
+/* Start of search results style*/
+
 .money::before {
-  content: "\20AA";
+  content: "\20AA   ";
+  color: #FE9F10;
+}
+
+.money {
+  color: #FE9F10;
 }
 
 .search {
   display: grid;
   grid-gap: 2rem;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
-.search-reult {
+.search-result {
   display: flex;
   border: 2px solid #f0f0f0;
-  height: 8rem;
+  height: 6rem;
   align-items: center;
   justify-content: space-around;
-  width: 85rem;
+  width: 80vw;
   border-radius: 2rem;
 }
+
+.search-result .buy{
+  background-color: white;
+  border: 2px solid #FE9F10;
+  color: #FE9F10;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.search-result .update{
+  background-color: white;
+  border: 2px solid #10ABDC;
+  color: #10ABDC;
+  border-radius: 1.5rem;
+  width: 6.4rem;
+  height: 3.5rem;
+}
+
+.time{
+  color: #5C5C5C;
+}
+
+/* end of search results style*/
