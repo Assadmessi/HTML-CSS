@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+navbar {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  align-items: center;
+  box-shadow: 0px 4px #fafafa;
+}
+
+.icon {
+  width: 2.5rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.profile img {
+  width: 2.5rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a p {
+  display: flex;
+  align-items: center;
+  color: #424242;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu a p.active {
+  color: #fea319;
+}
