@@ -9,7 +9,7 @@
 /* Start of navbar style*/
 
 navbar {
-  width: 98vw;
+  width: 99vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 10rem 1fr;
@@ -68,7 +68,7 @@ a {
   display: grid;
   grid-gap: 2rem;
   justify-content: center;
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 .search-result {
@@ -104,3 +104,44 @@ a {
 }
 
 /* end of search results style*/
+/* Start of footer style*/
+
+.footer {
+  background-color: #373737;
+  margin-top: 20rem;
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid #FE9F10;
+  width: 99vw;
+  height: 30rem;
+}
+
+.footer .logos {
+  padding-top: 10rem;
+}
+
+.footer .logos img {
+  width: 3rem;
+}
+
+.footer .icons {
+  padding-top: 5rem;
+}
+
+.footer h4 {
+  color: #FE9F10;
+  border-bottom: 1px solid;
+  text-align: right;
+}
+
+.footer .icons img {
+  width: 2rem;
+}
+
+.footer p {
+  color: #ffffff;
+  padding-top: 1rem;
+  text-align: right;
+}
+
+/* End of footer style*/
